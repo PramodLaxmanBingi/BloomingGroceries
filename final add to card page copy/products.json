@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name":" JUNIPER",
+        "price": 200,
+        "image": "image/juniper-Bon.png"
+    },
+    {
+        "id": 2,
+        "name":" JAPANESE MAPLE",
+        "price": 250,
+        "image": "image/maple.png"
+    },
+    {
+        "id": 3,
+        "name":" JADE",
+        "price": 290,
+        "image": "image/jade.png"
+    },
+    {
+        "id": 4,
+        "name":" FICUS",
+        "price": 200,
+        "image": "image/ficus.png"
+    },
+    {
+        "id": 5,
+        "name":" FICUS GINSENG",
+        "price": 300,
+        "image": "image/ficus1.png"
+    },
+    {
+        "id": 6,
+        "name":" PINE",
+        "price": 200,
+        "image": "image/pine.png"
+    },
+    {
+        "id": 7,
+        "name":"SHOHIN",
+        "price": 200,
+        "image": "image/shohin.png"
+    },
+    {
+        "id": 8,
+        "name":"GREENLINE",
+        "price": 200,
+        "image": "image/GREENLINE.png"
+    },
+    {
+        "id": 9,
+        "name":"CHINESEBANYAN",
+        "price": 200,
+        "image": "image/Chinesebanyan.png"
+    },
+    {
+        "id": 10,
+        "name":" CASCADE",
+        "price": 200,
+        "image": "image/cascade.png"
+    },
+    {
+        "id": 11,
+        "name":" SUCCULENT",
+        "price": 200,
+        "image": "image/succulent.png"
+    },
+    {
+        "id": 12,
+        "name":"CHERRYBLOSSOM",
+        "price": 200,
+        "image": "image/cherryblossom.png"
+    }
+
+]

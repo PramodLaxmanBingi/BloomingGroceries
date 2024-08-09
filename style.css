@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-family: "Italiana", sans-serif;
+}
+.nav-item a:hover {
+  color: rgb(20, 219, 20);
+}
+.navbar-brand {
+  font-style: italic;
+}
+.search {
+  height: 45px;
+  outline: none;
+  border: 2px solid #085b08bc;
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+  box-shadow: inset;
+}
+.search:focus {
+  outline: none;
+  box-shadow: none;
+  border: #085b08bc;
+  border-right: none;
+}
+.btn1 {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #085b08bc;
+  color: aliceblue;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.4s;
+}
+.btn1:hover {
+  background-color: #085b08bc;
+}
+.bi-bag-check {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  padding-top: 3px;
+  transition: all 0.4s;
+}
+.bi-bag-check:hover {
+  color: #085b08bc;
+}
+.main {
+  background: url(imgs/img5.jpg) no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.left-aligned-caption {
+  text-align: left;
+  position: absolute;
+  top: 20%; /* Adjust as needed */
+  left: 5%; /* Adjust as needed */
+  width: 40%; /* Adjust as needed */
+  color: #120f0fe0; /* Ensure the text is readable over the image */
+  padding: 20px; /* Add some padding for better readability */
+}
+
+.line {
+  border-bottom: 2px solid rgb(4, 14, 4); /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
+  margin-top: 10px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.carousel-inner p{
+  color: rgb(13, 19, 14);
+}
+.carousel-inner h1{
+  color: black;
+  font-family: "Italiana", sans-serif;
+  font-size:70px;
+}
+.main h1 {
+  font-size: 5rem;
+  font-family: "Italiana", sans-serif;
+}
+.main p:nth-child(1) {
+  font-size: 18px;
+  font: weight 500px;
+}
+.main p:nth-child(2) {
+  font-size: 18px;
+  color: black;
+}
+p.a {
+  text-align-last: left;
+}
+.mbtn1 {
+  height: 40px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: white;
+  background: #085b08bc;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.mbn1:hover {
+  color: rgb(20, 219, 20);
+}
+.mbtn2 {
+  height: 50px;
+  width: 15%;
+  outline: none;
+  background-color: transparent;
+  color: #085b08bc;
+  border: 1px solid #085b08bc;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.mbtn2:hover {
+  background-color: #085b08bc;
+  border: none;
+  color: azure;
+}
+.line {
+  height: 6px;
+  width: 30%;
+  background: #085b08bc;
+  display: inline-block;
+}
+/*about*/
+.About {
+  background: url(imgs/img1.jpg) no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.About h1 {
+  font-size: 3rem;
+  font-family: "Italiana", sans-serif;
+}
+.About p:nth-child(1) {
+  font-size: 18px;
+  font: weight 500px;
+  color: black;
+}
+.About p{
+  color: beige;
+}
+.About p:nth-child(2) {
+  font-size: 18px;
+  color: rgb(12, 12, 10);
+}
+/*========product=========*/
+.Product h1 {
+  font-size: 3rem;
+  font-family: "Italiana", sans-serif;
+}
+.Product p:nth-child(1) {
+  font-size: 18px;
+  font: weight 500px;
+
+}
+.Product p:nth-child(2) {
+  font-size: 18px;
+  color: gray;
+}
+.star {
+  text-align: end;
+  color: orange;
+}
+.Product .card-body {
+  border: 1px dashed rgb(208, 209, 200);
+}
+.head1 {
+  font-weight: 400;
+  margin: 0;
+}
+.per1 {
+  color: rgb(175, 172, 172);
+}
+.btnc {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: #085b08bc;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+.btnc:hover {
+  outline: none;
+  border: 1px solid #085b08bc;
+  color: #085b08bc;
+  background: transparent;
+  border-radius: 50px;
+}
+/*-----------Discount----------*/
+.Discount {
+  background: #085b08bc;
+  color: white;
+}
+.dbtn {
+  height: 50px;
+  width: 75%;
+  outline: none;
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  transition: all 0.4s;
+}
+.dbtn:hover {
+  background-color: wheat;
+}
+/*---=========store==========*/
+.Store h1 {
+  font-size: 3rem;
+  font-family: "Italiana", sans-serif;
+}
+.Store p:nth-child(1) {
+  font-size: 18px;
+  font: weight 500px;
+}
+.Store p:nth-child(2) {
+  font-size: 18px;
+  color: black;
+}
+.Store i {
+  font-size: 45px;
+}
+.Store .card {
+  border-radius: 0;
+  border: none;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.Store .card:hover {
+  background-color: #085b08bc;
+  color: white;
+}
+.Store .card:hover .per1 {
+  color: white;
+}
+/*===============Contact=========*/
+.Contact {
+  background: url(imgs/img13.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.Contact h1 {
+  font-size: 5rem;
+  font-family: "Italiana", sans-serif;
+  color: aliceblue;
+}
+.Contact p{
+  font-weight: bolder;
+  color: aliceblue;
+}
